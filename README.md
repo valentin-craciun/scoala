@@ -28,7 +28,7 @@
 
 		<p>
 			<label>Choose your age-range:</label>
-			<input type="radio" name="age" value="18-25" />18-25
+			<input type="radio" name="agee" value="18-25" />18-25
 			<input type="radio" name="age" value="26-40" />26-40
 			<input type="radio" name="age" value="41-60" />41-60
 			<input type="radio" name="age" value="60-160" />60-160
