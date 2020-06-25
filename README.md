@@ -2,31 +2,42 @@
 	<head>
 	    <style type="text/css">
 			div {
-				color: red;
-				    padding: 50px;
-				    border: 2px solid green;
-				    margin: 50px;
+				color: grey;
+				    padding: 10px;
+				    border: 2px dotted green;
+				    margin: 20px;
+					font-size: medium;
+					font-weight: bolder;
 			}
 		</style>
 	<body>
-		<a href="https://www.prosport.ro" title="Sa facem sport de pomana"> Link to Google website</a>
+		<a href="https://www.prosport.ro" title="Sa facem sport de pomana"> Sa facem sport de pomana</a>
+		<a href="https://adevarul.ro" title="Sa nu fim prosti si sa stim"> Sa nu fim prosti si sa stim</a>
 		
 		<p>
 			<label>Enter your name and your pet's name:</label>
 			<input type="text" value="Scrie ba boule" />
+						
         </p>
-        
-        <p>
+	   
+		<p>
+			<label>Enter your wife's name :</label>
+			<input type="text" />
+        </p>
+		
+		<p>
             <label>Cine a pus carciuma in drum;</label>
-            <input type="radio" name="cine?" value="carciumarul" /> Carciumarul
-            <input type="radio" name="cine?" value="carciumareasa"/> Carciumareasa
-
+			<SELECT>
+				<option VALUE="CARCIUMARUL"> CARCIUMARUL </option>
+				<OPTION vALUR="CARCIUMAREASA">CARCIUMAREASA</OPTION>
+			</select>
+		<p>
 
 		<p>
 			<label>Choose your sex:</label>
 			<select>
-				<option value="male">Male</option>
-				<option value="female">Female</option>
+				<option value="MUIERE">MUIERE</option>
+				<option value="BARBAT">BARBAT</option>
 			</select>
 		</p>
 
